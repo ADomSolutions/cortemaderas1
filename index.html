@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cortes y Medidas</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+   <p align="center"><h1>Cortes de Materiales para Agustin</h1></p>
+  <form>
+    <label for="ancho_material">Ancho del material en mm:</label>
+    <input type="number" id="ancho_material" name="ancho_material" min="1" required>
+    <label for="alto_material">Alto del material en mm:</label>
+    <input type="number" id="alto_material" name="alto_material" min="1" required>
+    <label for="cantidad_objetos">Cantidad de objetos:</label>
+    <input type="number" id="cantidad_objetos" name="cantidad_objetos" min="1" required>
+    <input type="button" value="Calcular" onclick="calcular()">
+  </form>
+  <div id="resultados">
+    <table id="tabla_resultados"></table>
+    <div id="grafico"></div>
+  </div>
+  <script src="script.js"></script>
+  <p align="center">AREA DE DIBUJO</p>
+		<div id="diagrama"></div>
+</body>
+</html>

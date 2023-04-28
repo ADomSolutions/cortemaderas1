@@ -1,0 +1,97 @@
+/* Estilos CSS para el formulario */
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+label, input[type="number"], input[type="button"] {
+  display: block;
+  margin-bottom: 10px;
+}
+input[type="button"] {
+  margin-top: 10px;
+}
+
+
+/* Estilos CSS para la tabla de resultados */
+#tabla_resultados {
+  width: 50%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+#tabla_resultados td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* Estilos CSS para el gráfico de barras */
+#grafico {
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+}
+.barra {
+  height: 20px;
+  margin-right: 5px;
+  background-color: blue;
+}
+#diagrama {
+  position: relative;
+  /*width: 500px;*/
+   margin: 20px auto;
+  width:80%;
+  height: 600px;
+  border: 3px solid black;
+
+
+}
+
+.caja {
+  position: absolute;
+  border: 1px solid red;
+  background-color: #ffcccc;
+}
+.caja {
+  position: absolute;
+  border: 1px solid red;
+  background-color: #ffcccc;
+}
+
+.caja:nth-child(1) {
+  background-color: #FFA07A;
+}
+
+.caja:nth-child(2) {
+  background-color: #FFD700;
+}
+
+.caja:nth-child(3) {
+  background-color: #7FFFD4;
+}
+
+.caja:nth-child(4) {
+  background-color: #9370DB;
+}
+
+.caja:nth-child(5) {
+  background-color: #B0C4DE;
+}
+
+.caja:nth-child(6) {
+  background-color: #90EE90;
+}
+
+.caja:nth-child(7) {
+  background-color: #FF6347;
+}
+
+.caja:nth-child(8) {
+  background-color: #00CED1;
+}
+
+.caja:nth-child(9) {
+  background-color: #F0E68C;
+}
+
+.caja:nth-child(10) {
+  background-color: #00FA9A;
+}
